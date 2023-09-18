@@ -1,0 +1,39 @@
+.home {
+    text-align: center; 
+    margin-top: 0px; 
+    height: 100vh;
+    place-items: center;
+    background-image: url('./images\ \(1\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    color: aqua;
+    position: relative;
+    isolation: isolate;
+  }
+  
+  .centered-animation {
+    opacity: 30;
+    transform: translateY(20px); 
+    animation-name: fadeIn;
+    animation-duration: 10s;
+  }
+  
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .centered-animation h1 {
+    color: rgb(53, 107, 225);
+    font-size: large;
+  }
+  

@@ -1,0 +1,29 @@
+.item {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    margin: 2rem auto;
+    align-items: center;
+    border-radius: 0.25rem;
+  }
+  .item {
+    padding: 1rem 2rem;
+    width: 50px;
+  }
+  .item h4 {
+    margin-bottom: 1;
+  }
+  .vertical-align {
+    display: block; 
+    margin-top: 10px; 
+  }
+
+  .photo {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    border: 0.25rem solid hsl(360, 71%, 66%);
+    border-radius: 0.25rem;
+    display: block;
+  }
